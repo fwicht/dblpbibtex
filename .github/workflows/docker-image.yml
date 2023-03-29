@@ -4,7 +4,8 @@ name: Deploy Images to GHCR
 on:
   push:
     branches:
-      - docker2
+      - docker
+      - master
   workflow_dispatch:
 
 jobs:
